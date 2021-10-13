@@ -1,0 +1,41 @@
+/*========== Colors ==========*/
+
+$first-color: #000000;
+$primary-color: #FF5E56;
+$primary-active-color: #EA0029;
+$second-color: #6fcf97;
+$gray-color: #808080;
+$disable-color: #BEC5CC;
+$white-color: #fff;
+$container-color: #fff;
+$input-color: #6fcf97;
+
+$first-color-lighter-1: lighten($first-color, 10%);
+$first-color-lighter: lighten($first-color, 20%);
+$primary-color-lighten-1: lighten($primary-color, 10%);
+$primary-color-lighten-2: lighten($primary-color, 30%);
+$primary-color-darken-1: darken($primary-color, 10%);
+$primary-color-darken-2: darken($primary-color, 20%);
+
+$bg-grad:  linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+
+
+/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+$big-font-size: 2rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+
+/*========== Font weight ==========*/
+$font-light: 300;
+$font-normal: 400;
+$font-regular: 500;
+$font-medium: 600;
+$font-semi-bold: 700;
+
+// /*========== transition ==========*/
+$transition-all: all 0.2s ease-in-out;

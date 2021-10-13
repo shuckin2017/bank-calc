@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/*===== BASE STYLE =====*/
+@import "./assets/sass/variable";
+@import "./assets/sass/source";
+@import "./assets/sass/mixins/media";
+
+
+/*===== STYLE COMPONENTS =====*/
+@import "./components/Button/Button";
+@import "./components/ContentBlock/ContentBlock";
+@import "./components/СalculationResult/СalculationResult";
+@import "./components/Input/Input";
+@import "./components/Loading/Loading";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 14px;
+  font-family: "Roboto";
+  transition: $transition-all;
+  &--hidden {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+  }
+
+  &--active {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

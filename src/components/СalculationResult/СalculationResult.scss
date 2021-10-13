@@ -1,0 +1,16 @@
+.calc-result {
+    padding-top: 16px;
+    &__inner {
+        padding-bottom: 30px;
+    }
+
+    &__item {
+        padding-bottom: 16px;
+        padding-top: 16px;
+        border-bottom: 1px solid #DFE3E6;
+
+        label {
+            padding-left: 16px;
+        }
+    }
+}

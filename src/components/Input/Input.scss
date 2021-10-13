@@ -1,0 +1,18 @@
+.input {
+    position: relative;
+}
+.search svg {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+    transition: $transition-all;
+
+    path {
+        fill: #BEC5CC;
+    }
+
+    &:hover path {
+        fill: #EA0029;
+    }
+}
